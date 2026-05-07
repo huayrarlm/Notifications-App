@@ -34,8 +34,8 @@
             this.richTextBoxLogs = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,7 +78,7 @@
             this.richTextBoxLogs.ForeColor = System.Drawing.SystemColors.Menu;
             this.richTextBoxLogs.Location = new System.Drawing.Point(3, 22);
             this.richTextBoxLogs.Name = "richTextBoxLogs";
-            this.richTextBoxLogs.Size = new System.Drawing.Size(290, 416);
+            this.richTextBoxLogs.Size = new System.Drawing.Size(312, 416);
             this.richTextBoxLogs.TabIndex = 3;
             this.richTextBoxLogs.Text = "";
             // 
@@ -100,21 +100,10 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.txtMessage);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(365, 100);
+            this.panel1.Location = new System.Drawing.Point(387, 71);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(289, 311);
             this.panel1.TabIndex = 5;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Pink;
-            this.button2.Location = new System.Drawing.Point(692, 22);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(96, 44);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Выход";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
             // 
@@ -126,6 +115,17 @@
             this.label2.Size = new System.Drawing.Size(47, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "deadline";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Pink;
+            this.button2.Location = new System.Drawing.Point(692, 22);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(96, 44);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Выход";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // MainForm
             // 
